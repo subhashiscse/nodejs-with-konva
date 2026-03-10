@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Konva Zones on Image</title>
+
+    <!-- Load Konva -->
+    <script src="https://cdn.jsdelivr.net/npm/konva@9.2.2/konva.min.js"></script>
+    <!-- Load jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <style>
+        #container {
+            width: 90%;
+            height: 600px;
+            border: 2px solid #ccc;
+            margin: 20px auto;
+            background: #eee;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Image with Zones Drawing</h2>
+    <button id="saveSnapshotBtn">Save Snapshot to Folder</button>
+    <div id="container"></div>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
